@@ -1,0 +1,37 @@
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-collapse {
+      display: flex !important;
+      flex-direction: row !important;
+      justify-content: flex-end;
+  }
+  .mrg-btw {
+    margin: 0px 12px;
+  }
+}
+
+#news-container {
+  justify-self: center;
+}
+
+.newsitem-card {
+  height: 540px;
+}
+
+#newsitem-img {
+  padding: 6px 6px;
+  width: 100%;
+  height: 200px;
+}
+.pg-display {
+  width: 35px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 7px;
+}
+.btn-end {
+  margin-bottom: 10px;
+  width: 110px;
+  align-self: center;
+}
