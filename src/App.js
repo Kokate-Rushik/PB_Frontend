@@ -35,20 +35,6 @@ export default class App extends Component {
                 />
               }
             />
-            {/* <Route
-              exact
-              path="/home"no
-              element={
-                <New
-                  setProgress={this.setProgress}
-                  apikey={this.apiKey}
-                  key="home"
-                  pageSize={10}
-                  country="us"
-                  category="home"
-                />
-              }
-            /> */}
             <Route
               exact
               path="/general"

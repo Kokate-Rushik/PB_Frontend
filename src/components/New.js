@@ -32,7 +32,7 @@ export class News extends Component {
       this.props.category
     )} - Prime Bulletin`;
   }
-  backendUrl = `http://localhost:5000`;
+  backendUrl = `https://pb-backend-xwad.onrender.com/`;
 
   async updateNews(loadMore = false) {
     this.props.setProgress(10);
